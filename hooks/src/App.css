@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  margin: 1em;
+}
+
+.note {
+  max-width: 400px;
+
+  background-color: #F9C74F;
+  color: black;
+
+  padding: 1em;
+  margin: auto;
+  border-radius: 3px;
+  margin-bottom: .5em;
+  box-sizing: border-box;
+
+  font: normal 14px oxygen;
+
+}
+
+.delete {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: .5em;
+}
+
+.create-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  margin-bottom: 1em;
+
+  max-width: 400px;
+}
+
+.new-note-field {
+  background-color: #F9C74F;
+  
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 1em;
+
+  height: 2em;
+  width: 100%;
+}
+
+.new-note-field:focus {
+  outline: none;
+  border: 2px solid #F9844A;
+}
+
+.create-note-button {
+  background-color: #43AA8B;
+  border: none;
+  color: white;
+
+  font-weight: bold;
+  
+  padding: .5em;
+  margin-left: 1em;
+  border-radius: 3px;
+  padding-left: 1em;
+  padding-right: 1em;
+  
+  max-width: 100px;
+  height: 35px;
+  width: 200px;
+}
